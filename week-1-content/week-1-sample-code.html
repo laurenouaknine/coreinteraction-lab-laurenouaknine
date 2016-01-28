@@ -1,0 +1,48 @@
+<!doctype html>
+
+<head>
+  <style>
+    .first-line {
+      font-family: Arial;
+      color: red;
+      background: green;
+      padding: 20px;
+    }
+
+    .second-line {
+      font-family: Times New Roman;
+      color: red;
+      background: blue;
+      padding: 20px;
+    }
+
+    .second-line:hover {
+      background: cyan;
+    }
+
+    .second-line:active {
+      background: lime;
+    }
+
+    .purple-background {
+      background: purple;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="first-line">
+    I am the first line of text.
+  </div>
+
+  <div class="second-line">
+    I am the second line of text.
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script>
+    $('.first-line').click(function () {
+      $(this).toggleClass('purple-background');
+    });
+  </script>
+</body>
