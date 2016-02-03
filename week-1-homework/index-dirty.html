@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dirty Haiku</title>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<style type="text/css">
+
+		body{
+			background-color: #FF2086;
+			padding-top: 180px;
+
+		}
+
+
+		div {
+			text-align: left;
+			margin-left: 10px;
+			font-family: Papyrus;		
+		}
+
+		.first {
+			color: brown;
+			font-size: 34pt;
+		}
+
+		.first:hover {
+			color: #FFD208;
+			font-family: "Comic Sans MS";
+			cursor: pointer;
+
+		}
+
+		.first:active {
+			-ms-transform: rotate(180deg); /* IE 9 */
+    		-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    		transform: rotate(180deg);
+    		text-align: left;
+		}
+
+		.second {
+			color: #86FF0B;
+			text-align: center;
+			padding-top: 20px;
+
+		}
+
+		.second:hover {
+			cursor: pointer;
+		}
+
+		.second:active {
+			letter-spacing: 10px;
+			-ms-transform: rotate(80deg); /* IE 9 */
+    		-webkit-transform: rotate(80deg); /* Chrome, Safari, Opera */
+    		transform: rotate(80deg);
+    		color: blue;
+
+		}
+
+		.third {
+			color: #AAE1FF;
+			text-align: right;
+			padding-right: 80px;
+		}
+
+
+		.third:hover {
+			cursor: pointer;
+		}
+
+		.added {
+			font-family: tahoma;
+			font-size: 200pt;
+			text-align: center;
+
+		}
+
+
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="first">fanning out its tail</div>
+	<div class="second">in the spring breeze,</div>
+	<div class="third">see a pea-</div>
+	<span id="spin"></span>
+
+	<script>
+    	$(function(){
+    var NewContent='<div class="added">COCK!</div>'
+    $(".third").click(function(){
+        $("#spin").after(NewContent);
+    });
+	});
+
+  </script>
+
+	
+
+</body>
+</html>
