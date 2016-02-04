@@ -1,0 +1,88 @@
+body {
+	background: #add8e6;
+}
+
+.header {
+	text-align: center;
+	font-family: helvetica;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 13pt;
+}
+
+.desert {
+	background: #ffa500;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 9pt;
+	color: brown;
+}
+
+.jungle{
+	text-align: center;
+	font-family: helvetica;
+	background: #006400;
+	font-size: 9pt;
+}
+
+
+.city{
+	text-align: center;
+	font-family: helvetica;
+	background: #696969;
+	font-size: 9pt;
+}
+
+
+.desert.place {
+	border: solid yellow 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.desert.place-footer {
+	border: solid 10px;
+	border-color: #add8e6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jungle.place {
+	border: solid 10px;
+	border-color: #008000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: yellow;
+}
+
+.jungle.place-footer {
+	border: solid 10px;
+	border-color: #add8e6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: yellow;
+}
+
+.city.place {
+	border: solid 10px;
+	border-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+}
+
+.city.place-footer {
+	border: solid 10px;
+	border-color: #add8e6;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+
