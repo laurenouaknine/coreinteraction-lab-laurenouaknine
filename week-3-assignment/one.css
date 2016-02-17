@@ -1,0 +1,32 @@
+.square {
+	width: 200px;
+	height: 200px;
+}
+
+#blue{
+	background: #15b9ff;
+
+}
+
+#sea{
+	background: #24f6a3;
+	margin-top: -185px;
+	margin-left: 15px;
+}
+
+
+#green{
+	background: #0c8f7a;
+	margin-top: -185px;
+	margin-left: 30px;
+}
+
+
+.circle {
+	width: 180px;
+	height: 180px;
+	background: #15b9ff;
+	border-radius: 50%;
+	margin-top: -190px;
+	margin-left: 40px;
+}

@@ -1,0 +1,29 @@
+.square{
+	width: 200px;
+	height: 200px;
+}
+
+#orange{
+	background: #ea8418;
+
+}
+
+#orangee{
+	background: #ea8418;
+	margin-top: -190px;
+	margin-left: 10px;
+}
+
+#blue{
+	background: #4b7fe8;
+	margin-top: -205px;
+	margin-left: 5px;
+}
+
+#yellow{
+	width: 200px;
+	height: 66px;
+	background: #fed100;
+	margin-top: -135px;
+	margin-left: 5px;
+}

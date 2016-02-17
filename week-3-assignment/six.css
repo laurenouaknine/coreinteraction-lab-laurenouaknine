@@ -1,0 +1,82 @@
+#one{
+	height: 50vh;
+	width: 100vw;
+	background: #4b7fe8;
+	margin-top: 50vh;	
+	
+}
+
+#two{
+	height: 50vh;
+	width: 50vw;
+	background: #e8a39f;
+	margin-top: -100vh;
+	position: relative;
+	
+}
+
+#three{
+	height: 50vh;
+	width: 50vw;
+	background: #f4bcd6;
+	margin-top: -50vh;
+	margin-left: 50vw;
+	position: relative;
+}
+
+#four{
+	height: 25vh;
+	width: 25vw;
+	background: #fed100;
+	position: relative;
+	margin-top: -35vh;
+	margin-left: 38vw;
+}
+
+
+#five{
+	height: 4vh;
+	width: 4vw;
+	border-radius: 50%;
+	background: #fed100;
+	position: relative;
+	margin-top: 35vh;
+	margin-left: 44vw;
+}
+
+
+#six{
+	height: 4vh;
+	width: 4vw;
+	border-radius: 50%;
+	background: #fed100;
+	position: relative;
+	margin-top: -4vh;
+	margin-left: 50vw;
+}
+
+
+#seven{
+	height: 4vh;
+	width: 4vw;
+	border-radius: 50%;
+	background: #fed100;
+	position: relative;
+	margin-top: -4vh;
+	margin-left: 56vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
