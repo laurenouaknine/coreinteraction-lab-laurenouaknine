@@ -1,0 +1,15 @@
+.square{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background-color: yellow;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#big{
+	height: 400px;
+	width: 400px;
+	background-color: blue;
+	text-align: center;
+}

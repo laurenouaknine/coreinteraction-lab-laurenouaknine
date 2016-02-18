@@ -1,0 +1,13 @@
+.square{
+	width: 350px;
+	height: 100px;
+	background-color: skyblue;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+#special{
+	position: relative;
+	margin-left: 70px;
+	top: 50px;
+}

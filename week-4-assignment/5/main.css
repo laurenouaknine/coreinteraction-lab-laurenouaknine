@@ -1,0 +1,13 @@
+.square{
+	position: absolute;
+	height: 500px;
+	width: 300px;
+	background-color: blue;
+}
+
+#right{
+	position: absolute;
+	background-color: yellow;
+	left: 300px;
+
+}

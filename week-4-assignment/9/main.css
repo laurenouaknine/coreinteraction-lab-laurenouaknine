@@ -1,0 +1,8 @@
+.square{
+	position: fixed;
+	height: 60%;
+	width: 80%;
+	left: 10%;
+	top: 17%;
+	background-color: blue;
+}

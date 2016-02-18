@@ -1,0 +1,15 @@
+.square{
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+}
+
+#mini{
+	position: absolute;
+	background-color: yellow;
+	height: 280px;
+	width: 280px;
+	top: 18px;
+	left: 18px;
+}
