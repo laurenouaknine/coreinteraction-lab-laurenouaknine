@@ -1,0 +1,82 @@
+img{
+	max-height: 200px;
+	display: inline-block;
+}
+
+
+h3{
+	font-family: univers;
+	font-weight: lighter;
+	margin-left: 40px;
+}
+
+a{
+	text-decoration: none;
+	font-family: univers;
+	font-weight: lighter;
+	color: black;
+}
+
+p{
+	z-index: 10;
+	margin-top: -615px;
+	margin-left: 310px;
+	font-family: univers;
+	font-weight: lighter;
+	text-align: justify;
+	font-size: 10pt;
+	line-height: 14px;
+	letter-spacing: .25px;
+}
+
+
+.trains{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.bus{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.street{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+
+}
+
+
+.air{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+.whole{
+	width: 610px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	
+}
+
+
+#one, #two, #three, #five, #b1, #b2, #s1, #s2, #s3, #s4, #a1{
+	opacity: 0;
+}
+
+#four{
+	max-width: 400px;
+	max-height: 400px;
+	overflow: none;
+}
+

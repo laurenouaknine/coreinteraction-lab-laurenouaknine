@@ -1,0 +1,57 @@
+img{
+	max-height: 200px;
+	display: inline-block;
+}
+
+img:hover{
+	cursor: crosshair;
+	transform: rotate(3deg);
+}
+
+h3{
+	font-family: univers;
+	font-weight: lighter;
+	margin-left: 40px;
+}
+
+
+.trains{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.bus{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.street{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+
+}
+
+
+.air{
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+.whole{
+	width: 610px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	
+
+}
+
