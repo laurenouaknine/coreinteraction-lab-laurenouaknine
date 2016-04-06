@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<script type="text/javascript">
+
+			var testArray = [4, 13, 87];
+
+				var last = testArray.length - 1;
+				console.log(last);
+
+				function findLargest(myArray){
+					var big = 0;
+						for (var i = 0; i <= last; ++i){
+
+							if (testArray[i] > big){
+								big = testArray[i];
+							}
+						 }
+
+						return big
+				}
+				
+
+			var result = findLargest(testArray);
+			console.log(result); // Should print 87
+
+
+
+
+
+		</script>
+</head>
+<body>
+
+</body>
+</html>
