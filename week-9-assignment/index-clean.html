@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<title>Clean Haiku</title>
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+
+	<style type="text/css">
+
+		body{
+			background-color: #ffffff;
+			padding-top: 200px;
+
+		}
+
+
+		div {
+			text-align: center;
+			margin-left: 10px;
+			font-family: Helvetica;
+			color: white;			
+		}
+
+		.first {
+			font-size: 34pt;
+		}
+
+		.first:hover {
+			/*color: #08A1FF;*/
+			cursor: pointer;
+		}
+
+		.first:active {
+			cursor: pointer;
+			color: #08A1FF;
+		/*	-ms-transform: rotate(14deg); /* IE 9
+    		-webkit-transform: rotate(14deg); /* Chrome, Safari, Opera
+    		transform: rotate(14deg);*/
+    		letter-spacing: 10px;
+    		/*padding-bottom: 50px;*/
+		}
+
+		.second {
+			color: white;
+			font-size: 34pt;
+			
+		}
+
+		.second:hover {
+			cursor: pointer;
+		}
+
+		.second:active {
+			-webkit-filter: blur(2px);
+			-moz-filter: blur(2px);
+			-o-filter: blur(2px);
+			-ms-filter: blur(2px);
+			filter: blur(2px);
+			text-align: right;
+		}
+
+		.third {
+			color: white;
+			font-size: 34pt;
+		}
+
+		.third:hover {
+			cursor: pointer;
+		}
+
+		#spin {
+			color: black;
+			font-size: 34pt;
+		}
+
+		.added{
+			color: black;
+			font-size: 34pt;
+			font-weight: bolder;
+			color: white;
+		}
+
+		button{
+			background-color: navy;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 8px;
+
+		}
+
+		button:hover{
+			padding: 15px 26px;
+			font-size: 15px;
+			cursor: pointer;
+
+		}
+
+		.square{
+			height: 30px;
+			width: 30px;
+			background-color: yellow;
+			margin-top: 15px;
+		}
+
+		body.class1{
+			background: blue;
+		}
+
+	</style>
+	
+
+</head>
+
+<body>
+
+	<!-- TEXT OF HAIKU GOES HERE -->
+	<div class="first">fanning out its tail</div>
+	<div class="second">in the spring breeze,</div>
+	<div class="third">see a peacock!</div>
+	<span id="spin"></span>
+
+
+	<!-- BUTTONS GO HERE -->
+	<button type="button" id="yo">#1</button>
+	<br>
+	<br>
+	<button type="button" id="holla">#2</button>
+	<br>
+	<br>
+	<button type="button" id="ayyy">#3</button>
+
+	
+	
+  <script>
+    	$(function(){
+    var NewContent='<div class="added">see a peacock!</div>'
+    $(".third").click(function(){
+        $("#spin").after(NewContent);
+    });
+	});
+
+  </script>
+
+	
+
+</body>
+</html>
